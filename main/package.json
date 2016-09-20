@@ -1,0 +1,32 @@
+{
+  "name": "blackjack-component-main",
+  "version": "0.0.1",
+  "description": "A blackjack component.",
+  "main": "src/components/main.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "test": "blackjack test",
+    "preview": "blackjack preview"
+  },
+  "author": "Sky UK",
+  "license": "BSD-3-Clause",
+  "peerDependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  },
+  "dependencies": {
+    "blackjack-tabs": "sky-uk/blackjack-tabs",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "redux": "^3.6.0",
+    "sky-toolkit": "github:sky-uk/toolkit"
+  },
+  "blackjack": {
+    "name": "Main",
+    "preview": "src/preview.js",
+    "index": "src/index.js"
+  }
+}
